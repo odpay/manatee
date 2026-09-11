@@ -1,0 +1,11 @@
+x-zenith:
+  catalog:
+    name: Manatee
+  expose:
+    - service: web
+      port: 80
+      web: true
+
+services:
+  web:
+    image: ghcr.io/odpay/manatee@sha256:1dfbb4a891a451fe4e040dd25e961d4747d96b6b710fc748fe05866d8cd1a070
